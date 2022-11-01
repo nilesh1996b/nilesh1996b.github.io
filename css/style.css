@@ -4,7 +4,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- 
+
+}
+
+body{
+  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,130,178,1) 0%, rgba(255,255,255,1) 100%);;
 }
 
 header{
@@ -94,7 +98,14 @@ nav {
 
 .text p{
   font-size: 25px;
+
 }
+
+#p201{
+  color: #5b5b5b;
+}
+
+
 
 .c-btn{
   border: none;
@@ -104,3 +115,116 @@ nav {
   padding: 10px;
   margin-top: 20px;
 }
+
+#about{
+  background: linear-gradient(0deg, rgba(1,129,176,0.29222111207764356) 0%, rgba(255,255,255,1) 100%);
+
+  padding: 50px 50px 100px 0px;
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+
+}
+
+.section-info{
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.section-info h1{
+  font-size: 50px;
+}
+
+.section-info p{
+  font-size: 25px;
+  color: #0181b0;
+  margin-bottom: -50px;
+}
+.section-info-skills h1{
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.section-info-skills{
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-left-col{
+  flex-basis: 50%;
+}
+.about-right-col{
+  flex-basis: 50%;
+}
+
+.about-left-col img{
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+#p-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about-right-col p{
+  font-size: 20px;
+  text-align: justify;
+  
+}
+
+
+#skills{
+
+  padding: 70px 50px 0px 50px;
+  background: linear-gradient(0deg, rgba(1,129,176,0.29222111207764356) 0%, rgba(255,255,255,1) 100%);
+}
+
+.section-info-skills h1{
+  margin-bottom: 20px;
+  
+}
+
+.skills-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.skills-left-col{
+  flex-basis: 50%;
+  text-align: justify;
+}
+/* .skills-left-col p{
+  font-size: 20px;
+} */
+
+.skills-right-col{
+  flex-basis: 50%;
+}
+
+
+progress{
+  width: 80%;
+}
+
+.progress-div{
+  width: 70%;
+  margin: auto;
+}
+.pbar2{
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left:80px ;
+  text-align: justify;
+}
+
+
